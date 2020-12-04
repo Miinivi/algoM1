@@ -1,0 +1,451 @@
+Microsoft Windows [version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Lam & Rodrigues>python --version
+Python 3.7.9
+
+C:\Users\Lam & Rodrigues>python notebook
+python: can't open file 'notebook': [Errno 2] No such file or directory
+
+C:\Users\Lam & Rodrigues>pip3 install --upgrade --force-reinstall --no-cache-dir jupyter
+Defaulting to user installation because normal site-packages is not writeable
+Collecting jupyter
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting ipykernel
+  Downloading ipykernel-5.3.4-py3-none-any.whl (120 kB)
+     |████████████████████████████████| 120 kB 2.2 MB/s
+Collecting ipython>=5.0.0
+  Downloading ipython-7.19.0-py3-none-any.whl (784 kB)
+     |████████████████████████████████| 784 kB 1.7 MB/s
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting decorator
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting ipywidgets
+  Downloading ipywidgets-7.5.1-py2.py3-none-any.whl (121 kB)
+     |████████████████████████████████| 121 kB 344 kB/s
+Collecting jedi>=0.10
+  Downloading jedi-0.17.2-py2.py3-none-any.whl (1.4 MB)
+     |████████████████████████████████| 1.4 MB 242 kB/s
+Collecting jupyter-client
+  Downloading jupyter_client-6.1.7-py3-none-any.whl (108 kB)
+     |████████████████████████████████| 108 kB 544 kB/s
+Collecting jupyter-console
+  Downloading jupyter_console-6.2.0-py3-none-any.whl (22 kB)
+Collecting jupyter-core>=4.6.0
+  Downloading jupyter_core-4.7.0-py3-none-any.whl (82 kB)
+     |████████████████████████████████| 82 kB 308 kB/s
+Collecting nbconvert
+  Downloading nbconvert-6.0.7-py3-none-any.whl (552 kB)
+     |████████████████████████████████| 552 kB 384 kB/s
+Collecting bleach
+  Downloading bleach-3.2.1-py2.py3-none-any.whl (145 kB)
+     |████████████████████████████████| 145 kB 726 kB/s
+Collecting defusedxml
+  Downloading defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting entrypoints>=0.2.2
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting jinja2>=2.4
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 467 kB/s
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.1.2-py2.py3-none-any.whl (4.6 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-win_amd64.whl (16 kB)
+Collecting mistune<2,>=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting nbclient<0.6.0,>=0.5.0
+  Downloading nbclient-0.5.1-py3-none-any.whl (65 kB)
+     |████████████████████████████████| 65 kB 918 kB/s
+Collecting async-generator
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting nbformat>=4.2.0
+  Downloading nbformat-5.0.8-py3-none-any.whl (172 kB)
+     |████████████████████████████████| 172 kB 656 kB/s
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting jsonschema!=2.5.0,>=2.4
+  Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+     |████████████████████████████████| 56 kB 653 kB/s
+Collecting attrs>=17.4.0
+  Downloading attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+     |████████████████████████████████| 49 kB 825 kB/s
+Collecting importlib-metadata
+  Downloading importlib_metadata-3.1.1-py3-none-any.whl (9.6 kB)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.4.3-py3-none-any.whl (5.3 kB)
+Collecting notebook
+  Downloading notebook-6.1.5-py3-none-any.whl (9.5 MB)
+     |████████████████████████████████| 9.5 MB 731 kB/s
+Collecting argon2-cffi
+  Downloading argon2_cffi-20.1.0-cp37-cp37m-win_amd64.whl (42 kB)
+     |████████████████████████████████| 42 kB 285 kB/s
+Collecting cffi>=1.0.0
+  Downloading cffi-1.14.4-cp37-cp37m-win_amd64.whl (178 kB)
+     |████████████████████████████████| 178 kB 1.1 MB/s
+Collecting packaging
+  Downloading packaging-20.7-py2.py3-none-any.whl (35 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.4.3.tar.gz (16 kB)
+Collecting parso<0.8.0,>=0.7.0
+  Downloading parso-0.7.1-py2.py3-none-any.whl (109 kB)
+     |████████████████████████████████| 109 kB 284 kB/s
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.9.0-py2.py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 990 kB/s
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.8-py3-none-any.whl (355 kB)
+     |████████████████████████████████| 355 kB 656 kB/s
+Collecting pycparser
+  Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+     |████████████████████████████████| 112 kB 467 kB/s
+Collecting pygments
+  Downloading Pygments-2.7.2-py3-none-any.whl (948 kB)
+     |████████████████████████████████| 948 kB 467 kB/s
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     |████████████████████████████████| 67 kB 1.2 MB/s
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.17.3.tar.gz (106 kB)
+     |████████████████████████████████| 106 kB 726 kB/s
+Collecting python-dateutil>=2.1
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+     |████████████████████████████████| 227 kB 409 kB/s
+Collecting pywin32>=1.0
+  Downloading pywin32-300-cp37-cp37m-win_amd64.whl (9.2 MB)
+     |████████████████████████████████| 9.2 MB 819 kB/s
+Collecting pyzmq>=13
+  Downloading pyzmq-20.0.0-cp37-cp37m-win_amd64.whl (1.0 MB)
+     |████████████████████████████████| 1.0 MB 384 kB/s
+Collecting qtconsole
+  Downloading qtconsole-5.0.1-py3-none-any.whl (118 kB)
+     |████████████████████████████████| 118 kB 930 kB/s
+Collecting qtpy
+  Downloading QtPy-1.9.0-py2.py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 626 kB/s
+Collecting Send2Trash
+  Downloading Send2Trash-1.5.0-py3-none-any.whl (12 kB)
+Collecting setuptools>=18.5
+  Downloading setuptools-50.3.2-py3-none-any.whl (785 kB)
+     |████████████████████████████████| 785 kB 939 kB/s
+Collecting six>=1.9.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.9.1-py3-none-any.whl (13 kB)
+Collecting pywinpty>=0.5
+  Downloading pywinpty-0.5.7-cp37-cp37m-win_amd64.whl (1.3 MB)
+     |████████████████████████████████| 1.3 MB 1.6 MB/s
+Collecting testpath
+  Downloading testpath-0.4.4-py2.py3-none-any.whl (163 kB)
+     |████████████████████████████████| 163 kB 726 kB/s
+Collecting tornado>=4.2
+  Downloading tornado-6.1-cp37-cp37m-win_amd64.whl (422 kB)
+     |████████████████████████████████| 422 kB 2.2 MB/s
+Collecting traitlets>=4.1.0
+  Downloading traitlets-5.0.5-py3-none-any.whl (100 kB)
+     |████████████████████████████████| 100 kB 1.0 MB/s
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting widgetsnbextension~=3.5.0
+  Downloading widgetsnbextension-3.5.1-py2.py3-none-any.whl (2.2 MB)
+     |████████████████████████████████| 2.2 MB 930 kB/s
+Collecting zipp>=0.5
+  Downloading zipp-3.4.0-py3-none-any.whl (5.2 kB)
+Using legacy 'setup.py install' for pandocfilters, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pyrsistent, since package 'wheel' is not installed.
+Installing collected packages: zipp, ipython-genutils, traitlets, six, setuptools, pywin32, pyrsistent, importlib-metadata, attrs, wcwidth, tornado, pyzmq, python-dateutil, pyparsing, parso, jupyter-core, jsonschema, webencodings, pygments, pycparser, prompt-toolkit, pickleshare, packaging, nest-asyncio, nbformat, MarkupSafe, jupyter-client, jedi, decorator, colorama, backcall, async-generator, testpath, pywinpty, pandocfilters, nbclient, mistune, jupyterlab-pygments, jinja2, ipython, entrypoints, defusedxml, cffi, bleach, terminado, Send2Trash, prometheus-client, nbconvert, ipykernel, argon2-cffi, notebook, widgetsnbextension, qtpy, qtconsole, jupyter-console, ipywidgets, jupyter
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.4.0
+    Uninstalling zipp-3.4.0:
+      Successfully uninstalled zipp-3.4.0
+  Attempting uninstall: ipython-genutils
+    Found existing installation: ipython-genutils 0.2.0
+    Uninstalling ipython-genutils-0.2.0:
+      Successfully uninstalled ipython-genutils-0.2.0
+  Attempting uninstall: traitlets
+    Found existing installation: traitlets 5.0.5
+    Uninstalling traitlets-5.0.5:
+      Successfully uninstalled traitlets-5.0.5
+  Attempting uninstall: six
+    Found existing installation: six 1.15.0
+    Uninstalling six-1.15.0:
+      Successfully uninstalled six-1.15.0
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 50.3.2
+    Uninstalling setuptools-50.3.2:
+      Successfully uninstalled setuptools-50.3.2
+  WARNING: The scripts easy_install-3.7.exe and easy_install.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: pywin32
+    Found existing installation: pywin32 300
+    Uninstalling pywin32-300:
+      Successfully uninstalled pywin32-300
+  Attempting uninstall: pyrsistent
+    Found existing installation: pyrsistent 0.17.3
+    Uninstalling pyrsistent-0.17.3:
+      Successfully uninstalled pyrsistent-0.17.3
+    Running setup.py install for pyrsistent ... done
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 3.1.1
+    Uninstalling importlib-metadata-3.1.1:
+      Successfully uninstalled importlib-metadata-3.1.1
+  Attempting uninstall: attrs
+    Found existing installation: attrs 20.3.0
+    Uninstalling attrs-20.3.0:
+      Successfully uninstalled attrs-20.3.0
+  Attempting uninstall: wcwidth
+    Found existing installation: wcwidth 0.2.5
+    Uninstalling wcwidth-0.2.5:
+      Successfully uninstalled wcwidth-0.2.5
+  Attempting uninstall: tornado
+    Found existing installation: tornado 6.1
+    Uninstalling tornado-6.1:
+      Successfully uninstalled tornado-6.1
+  Attempting uninstall: pyzmq
+    Found existing installation: pyzmq 20.0.0
+    Uninstalling pyzmq-20.0.0:
+      Successfully uninstalled pyzmq-20.0.0
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.1
+    Uninstalling python-dateutil-2.8.1:
+      Successfully uninstalled python-dateutil-2.8.1
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 2.4.7
+    Uninstalling pyparsing-2.4.7:
+      Successfully uninstalled pyparsing-2.4.7
+  Attempting uninstall: parso
+    Found existing installation: parso 0.7.1
+    Uninstalling parso-0.7.1:
+      Successfully uninstalled parso-0.7.1
+  Attempting uninstall: jupyter-core
+    Found existing installation: jupyter-core 4.7.0
+    Uninstalling jupyter-core-4.7.0:
+      Successfully uninstalled jupyter-core-4.7.0
+  WARNING: The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: jsonschema
+    Found existing installation: jsonschema 3.2.0
+    Uninstalling jsonschema-3.2.0:
+      Successfully uninstalled jsonschema-3.2.0
+  WARNING: The script jsonschema.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: webencodings
+    Found existing installation: webencodings 0.5.1
+    Uninstalling webencodings-0.5.1:
+      Successfully uninstalled webencodings-0.5.1
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.7.2
+    Uninstalling Pygments-2.7.2:
+      Successfully uninstalled Pygments-2.7.2
+  WARNING: The script pygmentize.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: pycparser
+    Found existing installation: pycparser 2.20
+    Uninstalling pycparser-2.20:
+      Successfully uninstalled pycparser-2.20
+  Attempting uninstall: prompt-toolkit
+    Found existing installation: prompt-toolkit 3.0.8
+    Uninstalling prompt-toolkit-3.0.8:
+      Successfully uninstalled prompt-toolkit-3.0.8
+  Attempting uninstall: pickleshare
+    Found existing installation: pickleshare 0.7.5
+    Uninstalling pickleshare-0.7.5:
+      Successfully uninstalled pickleshare-0.7.5
+  Attempting uninstall: packaging
+    Found existing installation: packaging 20.7
+    Uninstalling packaging-20.7:
+      Successfully uninstalled packaging-20.7
+  Attempting uninstall: nest-asyncio
+    Found existing installation: nest-asyncio 1.4.3
+    Uninstalling nest-asyncio-1.4.3:
+      Successfully uninstalled nest-asyncio-1.4.3
+  Attempting uninstall: nbformat
+    Found existing installation: nbformat 5.0.8
+    Uninstalling nbformat-5.0.8:
+      Successfully uninstalled nbformat-5.0.8
+  WARNING: The script jupyter-trust.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 1.1.1
+    Uninstalling MarkupSafe-1.1.1:
+      Successfully uninstalled MarkupSafe-1.1.1
+  Attempting uninstall: jupyter-client
+    Found existing installation: jupyter-client 6.1.7
+    Uninstalling jupyter-client-6.1.7:
+      Successfully uninstalled jupyter-client-6.1.7
+  WARNING: The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: jedi
+    Found existing installation: jedi 0.17.2
+    Uninstalling jedi-0.17.2:
+      Successfully uninstalled jedi-0.17.2
+  Attempting uninstall: decorator
+    Found existing installation: decorator 4.4.2
+    Uninstalling decorator-4.4.2:
+      Successfully uninstalled decorator-4.4.2
+  Attempting uninstall: colorama
+    Found existing installation: colorama 0.4.4
+    Uninstalling colorama-0.4.4:
+      Successfully uninstalled colorama-0.4.4
+  Attempting uninstall: backcall
+    Found existing installation: backcall 0.2.0
+    Uninstalling backcall-0.2.0:
+      Successfully uninstalled backcall-0.2.0
+  Attempting uninstall: async-generator
+    Found existing installation: async-generator 1.10
+    Uninstalling async-generator-1.10:
+      Successfully uninstalled async-generator-1.10
+  Attempting uninstall: testpath
+    Found existing installation: testpath 0.4.4
+    Uninstalling testpath-0.4.4:
+      Successfully uninstalled testpath-0.4.4
+  Attempting uninstall: pywinpty
+    Found existing installation: pywinpty 0.5.7
+    Uninstalling pywinpty-0.5.7:
+      Successfully uninstalled pywinpty-0.5.7
+  Attempting uninstall: pandocfilters
+    Found existing installation: pandocfilters 1.4.3
+    Uninstalling pandocfilters-1.4.3:
+      Successfully uninstalled pandocfilters-1.4.3
+    Running setup.py install for pandocfilters ... done
+  Attempting uninstall: nbclient
+    Found existing installation: nbclient 0.5.1
+    Uninstalling nbclient-0.5.1:
+      Successfully uninstalled nbclient-0.5.1
+  Attempting uninstall: mistune
+    Found existing installation: mistune 0.8.4
+    Uninstalling mistune-0.8.4:
+      Successfully uninstalled mistune-0.8.4
+  Attempting uninstall: jupyterlab-pygments
+    Found existing installation: jupyterlab-pygments 0.1.2
+    Uninstalling jupyterlab-pygments-0.1.2:
+      Successfully uninstalled jupyterlab-pygments-0.1.2
+  Attempting uninstall: jinja2
+    Found existing installation: Jinja2 2.11.2
+    Uninstalling Jinja2-2.11.2:
+      Successfully uninstalled Jinja2-2.11.2
+  Attempting uninstall: ipython
+    Found existing installation: ipython 7.19.0
+    Uninstalling ipython-7.19.0:
+      Successfully uninstalled ipython-7.19.0
+  WARNING: The scripts iptest.exe, iptest3.exe, ipython.exe and ipython3.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: entrypoints
+    Found existing installation: entrypoints 0.3
+    Uninstalling entrypoints-0.3:
+      Successfully uninstalled entrypoints-0.3
+  Attempting uninstall: defusedxml
+    Found existing installation: defusedxml 0.6.0
+    Uninstalling defusedxml-0.6.0:
+      Successfully uninstalled defusedxml-0.6.0
+  Attempting uninstall: cffi
+    Found existing installation: cffi 1.14.4
+    Uninstalling cffi-1.14.4:
+      Successfully uninstalled cffi-1.14.4
+  Attempting uninstall: bleach
+    Found existing installation: bleach 3.2.1
+    Uninstalling bleach-3.2.1:
+      Successfully uninstalled bleach-3.2.1
+  Attempting uninstall: terminado
+    Found existing installation: terminado 0.9.1
+    Uninstalling terminado-0.9.1:
+      Successfully uninstalled terminado-0.9.1
+  Attempting uninstall: Send2Trash
+    Found existing installation: Send2Trash 1.5.0
+    Uninstalling Send2Trash-1.5.0:
+      Successfully uninstalled Send2Trash-1.5.0
+  Attempting uninstall: prometheus-client
+    Found existing installation: prometheus-client 0.9.0
+    Uninstalling prometheus-client-0.9.0:
+      Successfully uninstalled prometheus-client-0.9.0
+  Attempting uninstall: nbconvert
+    Found existing installation: nbconvert 6.0.7
+    Uninstalling nbconvert-6.0.7:
+      Successfully uninstalled nbconvert-6.0.7
+  WARNING: The script jupyter-nbconvert.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: ipykernel
+    Found existing installation: ipykernel 5.3.4
+    Uninstalling ipykernel-5.3.4:
+      Successfully uninstalled ipykernel-5.3.4
+  Attempting uninstall: argon2-cffi
+    Found existing installation: argon2-cffi 20.1.0
+    Uninstalling argon2-cffi-20.1.0:
+      Successfully uninstalled argon2-cffi-20.1.0
+  Attempting uninstall: notebook
+    Found existing installation: notebook 6.1.5
+    Uninstalling notebook-6.1.5:
+      Successfully uninstalled notebook-6.1.5
+  WARNING: The scripts jupyter-bundlerextension.exe, jupyter-nbextension.exe, jupyter-notebook.exe and jupyter-serverextension.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: widgetsnbextension
+    Found existing installation: widgetsnbextension 3.5.1
+    Uninstalling widgetsnbextension-3.5.1:
+      Successfully uninstalled widgetsnbextension-3.5.1
+  Attempting uninstall: qtpy
+    Found existing installation: QtPy 1.9.0
+    Uninstalling QtPy-1.9.0:
+      Successfully uninstalled QtPy-1.9.0
+  Attempting uninstall: qtconsole
+    Found existing installation: qtconsole 5.0.1
+    Uninstalling qtconsole-5.0.1:
+      Successfully uninstalled qtconsole-5.0.1
+  Attempting uninstall: jupyter-console
+    Found existing installation: jupyter-console 6.2.0
+    Uninstalling jupyter-console-6.2.0:
+      Successfully uninstalled jupyter-console-6.2.0
+  WARNING: The script jupyter-console.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: ipywidgets
+    Found existing installation: ipywidgets 7.5.1
+    Uninstalling ipywidgets-7.5.1:
+      Successfully uninstalled ipywidgets-7.5.1
+  Attempting uninstall: jupyter
+    Found existing installation: jupyter 1.0.0
+    Uninstalling jupyter-1.0.0:
+      Successfully uninstalled jupyter-1.0.0
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 argon2-cffi-20.1.0 async-generator-1.10 attrs-20.3.0 backcall-0.2.0 bleach-3.2.1 cffi-1.14.4 colorama-0.4.4 decorator-4.4.2 defusedxml-0.6.0 entrypoints-0.3 importlib-metadata-3.1.1 ipykernel-5.3.4 ipython-7.19.0 ipython-genutils-0.2.0 ipywidgets-7.5.1 jedi-0.17.2 jinja2-2.11.2 jsonschema-3.2.0 jupyter-1.0.0 jupyter-client-6.1.7 jupyter-console-6.2.0 jupyter-core-4.7.0 jupyterlab-pygments-0.1.2 mistune-0.8.4 nbclient-0.5.1 nbconvert-6.0.7 nbformat-5.0.8 nest-asyncio-1.4.3 notebook-6.1.5 packaging-20.7 pandocfilters-1.4.3 parso-0.7.1 pickleshare-0.7.5 prometheus-client-0.9.0 prompt-toolkit-3.0.8 pycparser-2.20 pygments-2.7.2 pyparsing-2.4.7 pyrsistent-0.17.3 python-dateutil-2.8.1 pywin32-300 pywinpty-0.5.7 pyzmq-20.0.0 qtconsole-5.0.1 qtpy-1.9.0 setuptools-50.3.2 six-1.15.0 terminado-0.9.1 testpath-0.4.4 tornado-6.1 traitlets-5.0.5 wcwidth-0.2.5 webencodings-0.5.1 widgetsnbextension-3.5.1 zipp-3.4.0
+
+C:\Users\Lam & Rodrigues>whereis jupyter
+'whereis' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Lam & Rodrigues>pipenv install jupyterlab
+'pipenv' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Lam & Rodrigues>pip install pipenv
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pipenv
+  Downloading pipenv-2020.11.15-py2.py3-none-any.whl (3.9 MB)
+     |████████████████████████████████| 3.9 MB 504 kB/s
+Requirement already satisfied: certifi in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from pipenv) (2020.11.8)
+Requirement already satisfied: pip>=18.0 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from pipenv) (20.3.1)
+Requirement already satisfied: virtualenv in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from pipenv) (20.2.1)
+Requirement already satisfied: setuptools>=36.2.1 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from pipenv) (50.3.2)
+Requirement already satisfied: appdirs<2,>=1.4.3 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from virtualenv->pipenv) (1.4.4)
+Requirement already satisfied: importlib-metadata>=0.12 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from virtualenv->pipenv) (3.1.1)
+Requirement already satisfied: filelock<4,>=3.0.0 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from virtualenv->pipenv) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.1 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from virtualenv->pipenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from virtualenv->pipenv) (1.15.0)
+Requirement already satisfied: zipp>=0.5 in c:\users\lam & rodrigues\appdata\roaming\python\python37\site-packages (from importlib-metadata>=0.12->virtualenv->pipenv) (3.4.0)
+Collecting virtualenv-clone>=0.2.5
+  Downloading virtualenv_clone-0.5.4-py2.py3-none-any.whl (6.6 kB)
+Installing collected packages: virtualenv-clone, pipenv
+  WARNING: The script virtualenv-clone.exe is installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pipenv-resolver.exe and pipenv.exe are installed in 'C:\Users\Lam & Rodrigues\AppData\Roaming\Python\Python37\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pipenv-2020.11.15 virtualenv-clone-0.5.4
+
+C:\Users\Lam & Rodrigues>pipenv --version
+'pipenv' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\Lam & Rodrigues>

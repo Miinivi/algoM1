@@ -1,0 +1,7 @@
+Etapes pour le cours du 02 02 2021
+
+- Etape 1 : Monter un containeur MySQL, se connecter à la base depuis shell bash, puis [???].
+
+- Etape 2 : Se connecter à la base MySQL, dans le docker, avec Python. 
+
+- Etape 3 : Faire des requêtes.

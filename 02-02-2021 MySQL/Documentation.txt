@@ -1,0 +1,12 @@
+http://localhost/tutorial/
+https://www.docker.com/101-tutorial
+
+https://docs.microsoft.com/fr-fr/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15
+
+https://openclassrooms.com/fr/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1959969-installez-mysql
+
+https://docs.microsoft.com/fr-fr/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+https://dyma.fr/docker?gclid=CjwKCAiAjeSABhAPEiwAqfxURYX6MmSUF8cMRbi4hFazZmNTDv6kZznbu95rm9vkEgcSCe-rR-OCEBoCI_QQAvD_BwE
+
+https://docs.docker.com/get-started/

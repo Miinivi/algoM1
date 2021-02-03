@@ -1,0 +1,11 @@
+https://hub.docker.com/r/sqliteonlinecom/soe-mysql
+docker pull sqliteonlinecom/soe-mysql
+docker run --name soe-mysql --rm -d -e MYSQL_ROOT_PASSWORD=my_secret_pw -e SOE_DB_ROOT=1 -p 8081:17321 sqliteonlinecom/soe-mysql
+
+C:\Users\Lam & Rodrigues>docker pull sqliteonlinecom/soe-mysql
+Using default tag: latest
+error during connect: This error may indicate that the docker daemon is not running.: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/create?fromImage=sqliteonlinecom%2Fsoe-mysql&tag=latest: open //./pipe/docker_engine: The system cannot find the file specified.
+
+C:\Users\Lam & Rodrigues>docker run --name soe-mysql --rm -d -e MYSQL_ROOT_PASSWORD=my_secret_pw -e SOE_DB_ROOT=1 -p 8081:17321 sqliteonlinecom/soe-mysql
+docker: error during connect: This error may indicate that the docker daemon is not running.: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create?name=soe-mysql: open //./pipe/docker_engine: The system cannot find the file specified.
+See 'docker run --help'.
